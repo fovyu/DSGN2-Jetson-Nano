@@ -55,7 +55,8 @@ cd DSGN2
 ```
 pip install pycocotools==2.0.2
 pip install torch==1.7.1 torchvision==0.8.2 -f https://torch.kmtea.eu/whl/stable.html
-pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7/index.html
+###pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7/index.html
+build mmcv-full==1.4.0 from source https://mmcv.readthedocs.io/en/latest/get_started/build.html
 ```
 
 (2) Install mmdetection-v2.22.0 inside the this .
