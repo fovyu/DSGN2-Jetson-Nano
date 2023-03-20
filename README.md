@@ -46,7 +46,7 @@ python -m pcdet.datasets.kitti.lidar_kitti_dataset create_gt_database_only --ima
 
 (1) Clone this repository.
 ```
-git clone https://github.com/chenyilun95/DSGN2 
+git clone https://github.com/fovyu/DSGN2 
 cd DSGN2
 ```
 
@@ -54,7 +54,7 @@ cd DSGN2
 ```
 pip install pycocotools==2.0.2
 pip install torch==1.7.1 torchvision==0.8.2
-pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.7.1/index.html
+pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7/index.html
 ```
 
 (2) Install mmdetection-v2.22.0 inside the this .
