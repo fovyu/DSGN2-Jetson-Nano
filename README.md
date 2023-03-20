@@ -43,6 +43,7 @@ python -m pcdet.datasets.kitti.lidar_kitti_dataset create_gt_database_only --ima
 ```
 
 ### Installation
+Jetson Nano
 
 (1) Clone this repository.
 ```
@@ -53,7 +54,7 @@ cd DSGN2
 (2) Install mmcv-1.4.0 library. 
 ```
 pip install pycocotools==2.0.2
-pip install torch==1.7.1 torchvision==0.8.2
+pip install torch==1.7.1 torchvision==0.8.2 -f https://torch.kmtea.eu/whl/stable.html
 pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7/index.html
 ```
 
