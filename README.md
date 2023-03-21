@@ -54,10 +54,11 @@ cd DSGN2
 (2) Install mmcv-1.4.0 library. 
 ```
 pip install pycocotools==2.0.2
-pip install torch==1.7.1 torchvision==0.8.2 -f https://torch.kmtea.eu/whl/stable.html
-###pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7/index.html
+install torch refering to https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
+add export OPENBLAS_CORETYPE=ARMV8 to ~/.bashrc
 pip install pytest-runner pytest addict numpy pyyaml yapf opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
-build mmcv-full==1.4.0 from source https://mmcv.readthedocs.io/en/latest/get_started/build.html
+pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.7/index.html
+
 ```
 
 (2) Install mmdetection-v2.22.0 inside the this .
