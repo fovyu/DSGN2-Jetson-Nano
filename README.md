@@ -69,6 +69,7 @@ pip install -e .
 
 (3) Install the pcdet library.
 ```
+pip install -r requirements.txt
 pip install -e .
 ```
 
