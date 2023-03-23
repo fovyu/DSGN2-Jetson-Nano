@@ -64,6 +64,7 @@ pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu102/t
 (2) Install mmdetection-v2.22.0 inside the this .
 ```
 cd mmdetection-v2.22.0
+install spconv2.1.1 following its github
 pip install -e .
 ```
 
