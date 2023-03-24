@@ -71,6 +71,7 @@ pip install -e .
 (3) Install the pcdet library.
 ```
 pip install -r requirements.txt
+install scikit-image following https://forums.developer.nvidia.com/t/install-scikit-image/122912/9
 pip install -e .
 ```
 
