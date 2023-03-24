@@ -70,8 +70,9 @@ pip install -e .
 
 (3) Install the pcdet library.
 ```
-pip install -r requirements.txt
 install scikit-image following https://forums.developer.nvidia.com/t/install-scikit-image/122912/9
+install numba following  https://blog.csdn.net/xiao_zhang99/article/details/121615650
+pip install -r requirements.txt
 pip install -e .
 ```
 
